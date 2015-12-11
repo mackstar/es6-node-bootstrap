@@ -5,7 +5,7 @@ require('babel/register');
 
 var path = require('path');
 
-require('app-module-path').addPath(path.join(__dirname, '../lib'));
+require('app-module-path').addPath(path.join(__dirname, '../src'));
 
 var env = process.env.NODE_ENV || 'development';
 
